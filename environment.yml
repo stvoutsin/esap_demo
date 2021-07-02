@@ -1,0 +1,19 @@
+name: esap-demo
+
+channels:
+- conda-forge
+
+dependencies:
+- pandas         # for managing grades
+- widgetsnbextension
+- xwidgets
+- pip
+- jupyter_contrib_nbextensions
+- curl           # for travo
+- jq             # for travo
+- ipywidgets     # for ipywidget-games-*
+- ipycanvas
+- pip:
+    - "git+https://git.astron.nl/astron-sdc/esap-userprofile-python-client"
+    - .
+    - matplotlib
