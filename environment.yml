@@ -4,15 +4,20 @@ channels:
 - conda-forge
 
 dependencies:
-- pandas         # for managing grades
-- widgetsnbextension
-- xwidgets
-- pip
-- jupyter_contrib_nbextensions
-- curl           # for travo
-- jq             # for travo
-- ipywidgets     # for ipywidget-games-*
-- ipycanvas
+  - numpy
+  - matplotlib
+  - pandas
+  - hips
+  - astropy
+  - pyvo
+  - widgetsnbextension
+  - pip
+  - jupyter_contrib_nbextensions
+  - curl
+  - jq
+  - ipywidgets
+  - matplotlib
+
 - pip:
     - "git+https://git.astron.nl/astron-sdc/esap-userprofile-python-client"
-    - matplotlib
+    
