@@ -15,5 +15,4 @@ dependencies:
 - ipycanvas
 - pip:
     - "git+https://git.astron.nl/astron-sdc/esap-userprofile-python-client"
-    - .
     - matplotlib
