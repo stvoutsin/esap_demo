@@ -17,7 +17,9 @@ dependencies:
   - jq
   - ipywidgets
   - matplotlib
-
+  - plotly
+  - ipyaladin
+  
   - pip:
     - "git+https://git.astron.nl/astron-sdc/esap-userprofile-python-client"
     
