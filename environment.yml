@@ -19,7 +19,8 @@ dependencies:
   - matplotlib
   - plotly
   - ipyaladin
-  
+  - astroquery
+
   - pip:
     - "git+https://git.astron.nl/astron-sdc/esap-userprofile-python-client"
     
